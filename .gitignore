@@ -1,0 +1,56 @@
+# Upstream checkouts
+/third_party/*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env.local
+
+# Simulation and training output
+/simulation/out/
+/simulation/logs/
+*.pt
+*.onnx
+
+# Blender
+*.blend1
+*.blend2
+/render/out/
+/render/cache/
+
+# Generated binary assets
+*.blend
+*.mp4
+*.mov
+*.exr
+*.wav
+
+# Editors and operating system
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Local agent files
+/.claude/
+/.codex/
+CLAUDE.md
+AGENTS.md
+
+# Local working notes and review stills, never published
+/notes/
+/review/
+
+# Temporary files and local logs
+/scratch/
+/temp/
+/tmp/
+*.tmp
+*.bak
+codex*.log
+codex*.jsonl
+/codex-logs/
+/codex-outputs/

@@ -1,0 +1,16 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.blend binary
+*.glb binary
+*.gltf text
+*.stl binary
+*.obj text
+*.png binary
+*.jpg binary
+*.exr binary
+*.npz binary
+*.mp4 binary
