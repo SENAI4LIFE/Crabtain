@@ -1,4 +1,6 @@
-# Crabtain
+<h1 align="center">
+  <img src="docs/readme-assets/figures/crabtain-title.gif" alt="Crabtain" width="700">
+</h1>
 
 Procedural film rendering with MuJoCo and Blender Cycles.
 
